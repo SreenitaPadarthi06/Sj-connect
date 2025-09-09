@@ -1,0 +1,82 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+      body{
+         display: flex;
+            flex-direction: column;
+            background-image: url("https://wallpaperaccess.com/full/2324685.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+      padding: 20px;
+      }
+      h1 {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px 10px;
+      font-size: 16px;
+      margin: 20px 0;
+      border: 2px solid #cff7f9;
+      border-radius: 8px;
+    }
+
+         .main {
+            display: flex;
+            flex-direction: row;
+            background-image: url("https://wallpaperaccess.com/full/2324685.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 10px;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* .announce {
+            color: rgba(229, 229, 229, 0.753);
+            font-size: 70px;
+            text-shadow: 0px 0px 3px white;
+            transform: translateX(5px);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }  */
+
+        .matter {
+            display: grid;
+            background-image: url("https://wallpaperaccess.com/full/2324685.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 20px;
+            padding: 30px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+        }
+       .p1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 15px;
+        background-color: black;
+        color:white;
+        border-radius: 5px;
+        border: 1px solid white;
+        padding:10px;
+       }
+       .Knowmore{
+         background-color: rgb(254, 0, 42);
+         color:white;
+         padding:9px;
+         border-radius: 4px;
+         text-decoration: none;
+       }

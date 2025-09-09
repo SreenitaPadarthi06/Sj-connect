@@ -1,0 +1,193 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            background-image: url("https://wallpaperaccess.com/full/2324685.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 10px;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .announce {
+            color: rgba(229, 229, 229, 0.753);
+            font-size: 70px;
+            text-shadow: 0px 0px 3px white;
+            transform: translateX(5px);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       select{
+        display: flex;
+      width: 100%;
+      padding: 60px;
+      font-size: 16px;
+      margin: 20px 0;
+      border: 2px solid #ef3838;
+      border-radius: 8px;
+    }
+        .matter {
+            display: grid;
+            background-image: url("https://wallpaperaccess.com/full/2324685.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 20px;
+            padding: 30px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+        }
+        .header1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .b1, .b2, .b3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 100%;
+            height: auto;
+            color: white;
+            padding: 15px;
+            font-size: 16x;
+            border:1px solid white;
+            border-radius: 10px;
+            text-shadow: 2px 2px 2px #000000;
+            background-color: rgba(0, 0, 0, 0.89);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+              font-family: "Poppins", sans-serif;
+           font-weight: 400;
+          font-style: normal;
+            position: relative;
+            transition: all 0.3s ease-in;
+            overflow: hidden;
+        }
+       
+        .b1:hover, .b2:hover, .b3:hover {
+            cursor: pointer;
+            transform: translateX(3px) translateY(3px);
+            box-shadow: 4px 4px 4px rgba(249, 249, 249, 0.852);
+        }
+        
+        .b1 p, .b2 p, .b3 p {
+            padding-left: 2px;
+        }
+
+        .b1 ul, .b2 ul, .b3 ul {
+            padding-left: 10px;
+        }
+
+        .b11 {
+            margin: 5px;
+        }
+
+         .Knowmore {
+            text-decoration: none;
+            color: aliceblue;
+            position:relative;
+            background: linear-gradient(to right, rgba(255, 29, 29, 0.475), rgba(255, 70, 187, 0.566));
+            font-size: 16px;
+            transition: all 0.3s ease-in;
+            align-items: center;
+            border: 1px solid rgba(230, 102, 255, 0.568);
+            border-radius: 3px;
+            padding:10px ;
+        }
+        .Knowmore:hover {
+            transform: translateY(2px);
+            background-color: rgba(227, 23, 118, 0.733);
+            box-shadow: 0px 0px 2px 2px gold;
+        } 
+        
+       .sub{
+        font-size: clamp(0.5rem,2vw,3rem); 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 0px 0px 3px white;
+        color:rgba(228, 228, 228, 0.861);
+       }
+        .text {
+            font-size: 19px;
+            font-weight: lighter;
+            color:white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-shadow: 2px 2px 2px #000000;
+            /* background-color: rgba(176, 173, 173, 0.247); */
+            padding: 15px;
+        }
+        .button {
+            position: relative;
+            bottom: 10px;
+            margin-top: auto;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+      @media (max-width: 1200px) {
+        .matter{
+              grid-template-columns: 1fr 1fr;
+        }
+      }
+
+        @media (max-width: 68px) {
+          
+            .matter {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .b1, .b2, .b3 {
+                font-size: 18px;
+                padding: 10px;
+            }
+             .b1 ul,.b2 ul,.b3 {
+                padding-left:15px;
+             }
+            .announce {
+                font-size: 28px;
+            }
+
+            .text {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+           
+        }
+
+        @media (max-width: 480px) {
+
+            .matter {
+                padding: 10px;
+            }
+
+            .b1, .b2, .b3 {
+                font-size: 16px;
+                
+            }
+
+            .Knowmore {
+                font-size: 15px;
+                padding: 5px;
+            }
+
+            .announce {
+                font-size: 24px;
+            }
+
+            .text {
+                font-size: 12px;
+                padding: 8px;
+            }
+        }
