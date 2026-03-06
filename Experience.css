@@ -43,7 +43,7 @@ body {
 }
 
 body {
-    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/10/dark-blue-green-gradient-4k_1540755527.jpg);
+    background:#000000;
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
